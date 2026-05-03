@@ -1,0 +1,14 @@
+C:\Users\Admin\Documents\agent_code\obj\Release\net6.0-windows\HelloWorldCs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Documents\agent_code\obj\Release\net6.0-windows\HelloWorldCs.AssemblyInfoInputs.cache
+C:\Users\Admin\Documents\agent_code\obj\Release\net6.0-windows\HelloWorldCs.AssemblyInfo.cs
+C:\Users\Admin\Documents\agent_code\obj\Release\net6.0-windows\HelloWorldCs.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\agent_code\bin\Release\net6.0-windows\HelloWorldCs.exe
+C:\Users\Admin\Documents\agent_code\bin\Release\net6.0-windows\HelloWorldCs.deps.json
+C:\Users\Admin\Documents\agent_code\bin\Release\net6.0-windows\HelloWorldCs.runtimeconfig.json
+C:\Users\Admin\Documents\agent_code\bin\Release\net6.0-windows\HelloWorldCs.dll
+C:\Users\Admin\Documents\agent_code\bin\Release\net6.0-windows\HelloWorldCs.pdb
+C:\Users\Admin\Documents\agent_code\obj\Release\net6.0-windows\HelloWorldCs.dll
+C:\Users\Admin\Documents\agent_code\obj\Release\net6.0-windows\refint\HelloWorldCs.dll
+C:\Users\Admin\Documents\agent_code\obj\Release\net6.0-windows\HelloWorldCs.pdb
+C:\Users\Admin\Documents\agent_code\obj\Release\net6.0-windows\HelloWorldCs.genruntimeconfig.cache
+C:\Users\Admin\Documents\agent_code\obj\Release\net6.0-windows\ref\HelloWorldCs.dll
