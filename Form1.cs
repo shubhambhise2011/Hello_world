@@ -19,7 +19,7 @@ namespace HelloWorldCs
             this.StartPosition = FormStartPosition.CenterScreen;
 
             Label helloLabel = new Label();
-            helloLabel.Text = "Hello World Cs!";
+            helloLabel.Text = "Hello World nf2 Cs!";
             helloLabel.Font = new Font("Arial", 24, FontStyle.Bold);
             helloLabel.AutoSize = true;
             helloLabel.Location = new Point(100, 50);
