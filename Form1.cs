@@ -15,7 +15,7 @@ namespace HelloWorldCs
         {
             this.Text = "Hello World Cs";
             this.Width = 400;
-            this.Height = 250;
+            this.Height = 380;
             this.StartPosition = FormStartPosition.CenterScreen;
 
             Label helloLabel = new Label();
@@ -42,14 +42,41 @@ namespace HelloWorldCs
 
             this.Controls.Add(agentLabel);
 
+            Label resultLabel = new Label();
+            resultLabel.Text = "";
+            resultLabel.Font = new Font("Arial", 12, FontStyle.Regular);
+            resultLabel.ForeColor = Color.Blue;
+            resultLabel.AutoSize = true;
+            resultLabel.Location = new Point(100, 175);
+
+            this.Controls.Add(resultLabel);
+
+            TextBox inputTextBox = new TextBox();
+            inputTextBox.Font = new Font("Arial", 12, FontStyle.Regular);
+            inputTextBox.Location = new Point(100, 210);
+            inputTextBox.Width = 200;
+
+            this.Controls.Add(inputTextBox);
+
             Button okButton = new Button();
             okButton.Text = "OK";
             okButton.Font = new Font("Arial", 12, FontStyle.Bold);
             okButton.Size = new Size(100, 35);
-            okButton.Location = new Point(150, 180);
-            okButton.Click += (sender, e) => this.Close();
+            okButton.Location = new Point(90, 260);
+            okButton.Click += (sender, e) => {
+                resultLabel.Text = inputTextBox.Text;
+            };
 
             this.Controls.Add(okButton);
+
+            Button closeButton = new Button();
+            closeButton.Text = "Close";
+            closeButton.Font = new Font("Arial", 12, FontStyle.Bold);
+            closeButton.Size = new Size(100, 35);
+            closeButton.Location = new Point(210, 260);
+            closeButton.Click += (sender, e) => this.Close();
+
+            this.Controls.Add(closeButton);
         }
     }
 }
