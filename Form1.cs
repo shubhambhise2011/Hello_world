@@ -15,7 +15,7 @@ namespace HelloWorldCs
         {
             this.Text = "Hello World Cs";
             this.Width = 400;
-            this.Height = 200;
+            this.Height = 250;
             this.StartPosition = FormStartPosition.CenterScreen;
 
             Label helloLabel = new Label();
@@ -33,6 +33,14 @@ namespace HelloWorldCs
             featureLabel.Location = new Point(100, 100);
 
             this.Controls.Add(featureLabel);
+
+            Label agentLabel = new Label();
+            agentLabel.Text = "this is created by agent";
+            agentLabel.Font = new Font("Arial", 14, FontStyle.Italic);
+            agentLabel.AutoSize = true;
+            agentLabel.Location = new Point(100, 140);
+
+            this.Controls.Add(agentLabel);
         }
     }
 }
