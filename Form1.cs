@@ -41,6 +41,15 @@ namespace HelloWorldCs
             agentLabel.Location = new Point(100, 140);
 
             this.Controls.Add(agentLabel);
+
+            Button okButton = new Button();
+            okButton.Text = "OK";
+            okButton.Font = new Font("Arial", 12, FontStyle.Bold);
+            okButton.Size = new Size(100, 35);
+            okButton.Location = new Point(150, 180);
+            okButton.Click += (sender, e) => this.Close();
+
+            this.Controls.Add(okButton);
         }
     }
 }
