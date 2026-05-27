@@ -64,7 +64,20 @@ namespace HelloWorldCs
             okButton.Size = new Size(100, 35);
             okButton.Location = new Point(90, 260);
             okButton.Click += (sender, e) => {
-                resultLabel.Text = inputTextBox.Text;
+                Form newWindow = new Form();
+                newWindow.Text = "Madhuri";
+                newWindow.Width = 300;
+                newWindow.Height = 150;
+                newWindow.StartPosition = FormStartPosition.CenterParent;
+
+                Label contentLabel = new Label();
+                contentLabel.Text = inputTextBox.Text;
+                contentLabel.Font = new Font("Arial", 14, FontStyle.Regular);
+                contentLabel.AutoSize = true;
+                contentLabel.Location = new Point(30, 40);
+
+                newWindow.Controls.Add(contentLabel);
+                newWindow.Show();
             };
 
             this.Controls.Add(okButton);
